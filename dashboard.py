@@ -92,7 +92,7 @@ with right_chart:
         template="plotly_white",
         )
     fig_line.update_traces(line=dict(color="#2b5c8f", width=2))
-    st.plotly_chart(fig_line, use_container_width=True)
+    st.pst.plotly_chart(fig_line, use_container_width=True)
     # 5. Data Preview Section
-    with st.expander('👀 View Raw Filtered Data Table'):
-    st.dataframe(df_filtered.sort_values(by='Date', ascending=False), use_container_width=True)
+    with st.expander('View Raw Filtered Data Table'):
+        st.dataframe(df_filtered.sort_values(by='Date', ascending=False), use_container_width=True)
