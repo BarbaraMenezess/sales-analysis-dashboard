@@ -91,7 +91,7 @@ with right_chart:
         labels={"Total_Sales": "Daily Revenue ($)", "Date": "Date"},
         template="plotly_white",
     )
-    fig_line.update_traces(line_color="#2b5c8f", linewidth=2)
+fig_line.update_traces(line=dict(color="#2b5c8f", width=2))
     st.plotly_chart(fig_line, use_container_width=True)
 
 # 5. Data Preview Section
