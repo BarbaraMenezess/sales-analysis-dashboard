@@ -1,0 +1,501 @@
+ID_Pedido,Data,Produto,Categoria,Quantidade,Preco_Unitario,Total_Venda
+REQ0001,2026-05-21,Notebook,Eletrônicos,1,4500,4500
+REQ0002,2026-03-13,Smartphone,Eletrônicos,1,2500,2500
+REQ0003,2026-02-14,Notebook,Eletrônicos,3,4500,13500
+REQ0004,2026-01-17,Fone Bluetooth,Acessórios,2,200,400
+REQ0005,2026-04-22,Notebook,Eletrônicos,1,4500,4500
+REQ0006,2026-01-14,Smartphone,Eletrônicos,3,2500,7500
+REQ0007,2026-08-03,Fone Bluetooth,Acessórios,1,200,200
+REQ0008,2026-05-23,Smartphone,Eletrônicos,2,2500,5000
+REQ0009,2026-08-05,Notebook,Eletrônicos,1,4500,4500
+REQ0010,2026-03-21,Teclado Mecânico,Acessórios,2,350,700
+REQ0011,2026-02-22,Smartphone,Eletrônicos,2,2500,5000
+REQ0012,2026-02-19,Notebook,Eletrônicos,2,4500,9000
+REQ0013,2026-05-16,Teclado Mecânico,Acessórios,2,350,700
+REQ0014,2026-08-24,Notebook,Eletrônicos,3,4500,13500
+REQ0015,2026-07-13,Fone Bluetooth,Acessórios,1,200,200
+REQ0016,2026-05-31,Notebook,Eletrônicos,3,4500,13500
+REQ0017,2026-04-09,Fone Bluetooth,Acessórios,2,200,400
+REQ0018,2026-04-27,Notebook,Eletrônicos,1,4500,4500
+REQ0019,2026-04-30,Teclado Mecânico,Acessórios,1,350,350
+REQ0020,2026-05-23,Notebook,Eletrônicos,2,4500,9000
+REQ0021,2026-07-06,Monitor 4K,Monitores,3,1800,5400
+REQ0022,2026-07-01,Smartphone,Eletrônicos,2,2500,5000
+REQ0023,2026-05-17,Smartphone,Eletrônicos,3,2500,7500
+REQ0024,2026-03-29,Notebook,Eletrônicos,3,4500,13500
+REQ0025,2026-05-06,Fone Bluetooth,Acessórios,3,200,600
+REQ0026,2026-07-14,Smartphone,Eletrônicos,2,2500,5000
+REQ0027,2026-04-23,Teclado Mecânico,Acessórios,3,350,1050
+REQ0028,2026-04-28,Teclado Mecânico,Acessórios,1,350,350
+REQ0029,2026-07-25,Notebook,Eletrônicos,2,4500,9000
+REQ0030,2026-04-19,Teclado Mecânico,Acessórios,1,350,350
+REQ0031,2026-06-11,Fone Bluetooth,Acessórios,3,200,600
+REQ0032,2026-09-13,Smartphone,Eletrônicos,3,2500,7500
+REQ0033,2026-08-23,Monitor 4K,Monitores,3,1800,5400
+REQ0034,2026-03-13,Smartphone,Eletrônicos,2,2500,5000
+REQ0035,2026-05-15,Smartphone,Eletrônicos,3,2500,7500
+REQ0036,2026-07-24,Fone Bluetooth,Acessórios,2,200,400
+REQ0037,2026-03-12,Teclado Mecânico,Acessórios,1,350,350
+REQ0038,2026-02-16,Fone Bluetooth,Acessórios,2,200,400
+REQ0039,2026-03-20,Notebook,Eletrônicos,1,4500,4500
+REQ0040,2026-08-05,Smartphone,Eletrônicos,3,2500,7500
+REQ0041,2026-07-17,Fone Bluetooth,Acessórios,1,200,200
+REQ0042,2026-08-28,Monitor 4K,Monitores,3,1800,5400
+REQ0043,2026-01-06,Fone Bluetooth,Acessórios,2,200,400
+REQ0044,2026-05-17,Notebook,Eletrônicos,3,4500,13500
+REQ0045,2026-05-31,Teclado Mecânico,Acessórios,1,350,350
+REQ0046,2026-08-21,Monitor 4K,Monitores,1,1800,1800
+REQ0047,2026-05-15,Notebook,Eletrônicos,3,4500,13500
+REQ0048,2026-09-17,Fone Bluetooth,Acessórios,1,200,200
+REQ0049,2026-06-02,Notebook,Eletrônicos,3,4500,13500
+REQ0050,2026-04-12,Fone Bluetooth,Acessórios,3,200,600
+REQ0051,2026-03-24,Smartphone,Eletrônicos,2,2500,5000
+REQ0052,2026-01-01,Fone Bluetooth,Acessórios,3,200,600
+REQ0053,2026-09-08,Fone Bluetooth,Acessórios,2,200,400
+REQ0054,2026-07-05,Notebook,Eletrônicos,1,4500,4500
+REQ0055,2026-01-30,Teclado Mecânico,Acessórios,1,350,350
+REQ0056,2026-02-10,Smartphone,Eletrônicos,3,2500,7500
+REQ0057,2026-09-06,Notebook,Eletrônicos,3,4500,13500
+REQ0058,2026-03-06,Notebook,Eletrônicos,3,4500,13500
+REQ0059,2026-09-01,Smartphone,Eletrônicos,3,2500,7500
+REQ0060,2026-05-16,Fone Bluetooth,Acessórios,1,200,200
+REQ0061,2026-08-05,Fone Bluetooth,Acessórios,3,200,600
+REQ0062,2026-04-13,Smartphone,Eletrônicos,3,2500,7500
+REQ0063,2026-07-11,Teclado Mecânico,Acessórios,2,350,700
+REQ0064,2026-08-20,Monitor 4K,Monitores,3,1800,5400
+REQ0065,2026-04-26,Notebook,Eletrônicos,1,4500,4500
+REQ0066,2026-01-11,Notebook,Eletrônicos,2,4500,9000
+REQ0067,2026-04-28,Fone Bluetooth,Acessórios,3,200,600
+REQ0068,2026-01-04,Fone Bluetooth,Acessórios,1,200,200
+REQ0069,2026-01-31,Notebook,Eletrônicos,3,4500,13500
+REQ0070,2026-01-17,Smartphone,Eletrônicos,1,2500,2500
+REQ0071,2026-09-21,Teclado Mecânico,Acessórios,1,350,350
+REQ0072,2026-09-06,Smartphone,Eletrônicos,2,2500,5000
+REQ0073,2026-03-09,Smartphone,Eletrônicos,3,2500,7500
+REQ0074,2026-08-31,Fone Bluetooth,Acessórios,3,200,600
+REQ0075,2026-07-28,Smartphone,Eletrônicos,2,2500,5000
+REQ0076,2026-02-19,Smartphone,Eletrônicos,1,2500,2500
+REQ0077,2026-08-05,Monitor 4K,Monitores,2,1800,3600
+REQ0078,2026-01-28,Monitor 4K,Monitores,2,1800,3600
+REQ0079,2026-07-26,Notebook,Eletrônicos,1,4500,4500
+REQ0080,2026-05-08,Teclado Mecânico,Acessórios,1,350,350
+REQ0081,2026-08-18,Smartphone,Eletrônicos,1,2500,2500
+REQ0082,2026-04-04,Smartphone,Eletrônicos,2,2500,5000
+REQ0083,2026-05-08,Teclado Mecânico,Acessórios,2,350,700
+REQ0084,2026-02-20,Notebook,Eletrônicos,2,4500,9000
+REQ0085,2026-01-08,Notebook,Eletrônicos,3,4500,13500
+REQ0086,2026-03-27,Notebook,Eletrônicos,1,4500,4500
+REQ0087,2026-09-04,Monitor 4K,Monitores,2,1800,3600
+REQ0088,2026-01-31,Smartphone,Eletrônicos,2,2500,5000
+REQ0089,2026-01-02,Smartphone,Eletrônicos,2,2500,5000
+REQ0090,2026-08-21,Monitor 4K,Monitores,2,1800,3600
+REQ0091,2026-09-07,Teclado Mecânico,Acessórios,2,350,700
+REQ0092,2026-06-01,Smartphone,Eletrônicos,1,2500,2500
+REQ0093,2026-02-01,Smartphone,Eletrônicos,1,2500,2500
+REQ0094,2026-01-26,Teclado Mecânico,Acessórios,1,350,350
+REQ0095,2026-09-15,Fone Bluetooth,Acessórios,2,200,400
+REQ0096,2026-01-30,Fone Bluetooth,Acessórios,1,200,200
+REQ0097,2026-04-06,Fone Bluetooth,Acessórios,1,200,200
+REQ0098,2026-02-04,Notebook,Eletrônicos,3,4500,13500
+REQ0099,2026-03-03,Smartphone,Eletrônicos,2,2500,5000
+REQ0100,2026-01-21,Fone Bluetooth,Acessórios,1,200,200
+REQ0101,2026-08-03,Fone Bluetooth,Acessórios,1,200,200
+REQ0102,2026-09-25,Fone Bluetooth,Acessórios,3,200,600
+REQ0103,2026-04-15,Teclado Mecânico,Acessórios,2,350,700
+REQ0104,2026-05-16,Teclado Mecânico,Acessórios,1,350,350
+REQ0105,2026-06-03,Monitor 4K,Monitores,1,1800,1800
+REQ0106,2026-02-07,Monitor 4K,Monitores,2,1800,3600
+REQ0107,2026-02-21,Notebook,Eletrônicos,2,4500,9000
+REQ0108,2026-04-20,Notebook,Eletrônicos,3,4500,13500
+REQ0109,2026-03-09,Fone Bluetooth,Acessórios,2,200,400
+REQ0110,2026-05-06,Teclado Mecânico,Acessórios,1,350,350
+REQ0111,2026-03-22,Teclado Mecânico,Acessórios,2,350,700
+REQ0112,2026-06-04,Monitor 4K,Monitores,3,1800,5400
+REQ0113,2026-09-28,Fone Bluetooth,Acessórios,3,200,600
+REQ0114,2026-06-03,Notebook,Eletrônicos,3,4500,13500
+REQ0115,2026-05-16,Notebook,Eletrônicos,1,4500,4500
+REQ0116,2026-03-21,Notebook,Eletrônicos,1,4500,4500
+REQ0117,2026-04-18,Teclado Mecânico,Acessórios,2,350,700
+REQ0118,2026-05-16,Teclado Mecânico,Acessórios,1,350,350
+REQ0119,2026-05-09,Fone Bluetooth,Acessórios,2,200,400
+REQ0120,2026-08-05,Notebook,Eletrônicos,1,4500,4500
+REQ0121,2026-01-02,Teclado Mecânico,Acessórios,1,350,350
+REQ0122,2026-05-15,Teclado Mecânico,Acessórios,1,350,350
+REQ0123,2026-08-15,Smartphone,Eletrônicos,3,2500,7500
+REQ0124,2026-08-07,Fone Bluetooth,Acessórios,3,200,600
+REQ0125,2026-02-27,Fone Bluetooth,Acessórios,1,200,200
+REQ0126,2026-03-18,Notebook,Eletrônicos,3,4500,13500
+REQ0127,2026-07-09,Fone Bluetooth,Acessórios,1,200,200
+REQ0128,2026-03-17,Fone Bluetooth,Acessórios,3,200,600
+REQ0129,2026-01-22,Monitor 4K,Monitores,1,1800,1800
+REQ0130,2026-01-21,Teclado Mecânico,Acessórios,2,350,700
+REQ0131,2026-05-08,Teclado Mecânico,Acessórios,1,350,350
+REQ0132,2026-07-28,Notebook,Eletrônicos,2,4500,9000
+REQ0133,2026-03-21,Fone Bluetooth,Acessórios,3,200,600
+REQ0134,2026-04-01,Smartphone,Eletrônicos,1,2500,2500
+REQ0135,2026-04-02,Monitor 4K,Monitores,1,1800,1800
+REQ0136,2026-05-08,Teclado Mecânico,Acessórios,2,350,700
+REQ0137,2026-02-25,Teclado Mecânico,Acessórios,1,350,350
+REQ0138,2026-08-29,Monitor 4K,Monitores,1,1800,1800
+REQ0139,2026-08-24,Smartphone,Eletrônicos,1,2500,2500
+REQ0140,2026-04-27,Teclado Mecânico,Acessórios,2,350,700
+REQ0141,2026-04-09,Smartphone,Eletrônicos,1,2500,2500
+REQ0142,2026-05-23,Monitor 4K,Monitores,2,1800,3600
+REQ0143,2026-06-29,Notebook,Eletrônicos,2,4500,9000
+REQ0144,2026-06-19,Fone Bluetooth,Acessórios,2,200,400
+REQ0145,2026-05-14,Notebook,Eletrônicos,1,4500,4500
+REQ0146,2026-05-16,Smartphone,Eletrônicos,3,2500,7500
+REQ0147,2026-08-11,Notebook,Eletrônicos,1,4500,4500
+REQ0148,2026-06-10,Teclado Mecânico,Acessórios,3,350,1050
+REQ0149,2026-09-19,Monitor 4K,Monitores,3,1800,5400
+REQ0150,2026-04-08,Notebook,Eletrônicos,2,4500,9000
+REQ0151,2026-08-12,Teclado Mecânico,Acessórios,1,350,350
+REQ0152,2026-04-11,Notebook,Eletrônicos,3,4500,13500
+REQ0153,2026-02-05,Teclado Mecânico,Acessórios,2,350,700
+REQ0154,2026-06-10,Teclado Mecânico,Acessórios,3,350,1050
+REQ0155,2026-06-03,Notebook,Eletrônicos,3,4500,13500
+REQ0156,2026-07-29,Fone Bluetooth,Acessórios,2,200,400
+REQ0157,2026-06-01,Teclado Mecânico,Acessórios,2,350,700
+REQ0158,2026-04-09,Fone Bluetooth,Acessórios,1,200,200
+REQ0159,2026-07-14,Monitor 4K,Monitores,3,1800,5400
+REQ0160,2026-06-04,Smartphone,Eletrônicos,3,2500,7500
+REQ0161,2026-01-01,Monitor 4K,Monitores,3,1800,5400
+REQ0162,2026-04-18,Teclado Mecânico,Acessórios,2,350,700
+REQ0163,2026-06-14,Monitor 4K,Monitores,3,1800,5400
+REQ0164,2026-08-15,Monitor 4K,Monitores,2,1800,3600
+REQ0165,2026-08-31,Smartphone,Eletrônicos,3,2500,7500
+REQ0166,2026-02-13,Smartphone,Eletrônicos,3,2500,7500
+REQ0167,2026-06-21,Teclado Mecânico,Acessórios,3,350,1050
+REQ0168,2026-06-08,Notebook,Eletrônicos,1,4500,4500
+REQ0169,2026-03-17,Smartphone,Eletrônicos,1,2500,2500
+REQ0170,2026-05-06,Notebook,Eletrônicos,1,4500,4500
+REQ0171,2026-02-07,Monitor 4K,Monitores,3,1800,5400
+REQ0172,2026-04-10,Monitor 4K,Monitores,2,1800,3600
+REQ0173,2026-07-24,Monitor 4K,Monitores,2,1800,3600
+REQ0174,2026-01-03,Smartphone,Eletrônicos,1,2500,2500
+REQ0175,2026-04-23,Notebook,Eletrônicos,2,4500,9000
+REQ0176,2026-09-23,Smartphone,Eletrônicos,3,2500,7500
+REQ0177,2026-05-08,Monitor 4K,Monitores,1,1800,1800
+REQ0178,2026-03-10,Notebook,Eletrônicos,2,4500,9000
+REQ0179,2026-06-12,Monitor 4K,Monitores,3,1800,5400
+REQ0180,2026-09-16,Monitor 4K,Monitores,3,1800,5400
+REQ0181,2026-08-17,Monitor 4K,Monitores,3,1800,5400
+REQ0182,2026-09-01,Smartphone,Eletrônicos,3,2500,7500
+REQ0183,2026-05-07,Monitor 4K,Monitores,2,1800,3600
+REQ0184,2026-09-06,Teclado Mecânico,Acessórios,3,350,1050
+REQ0185,2026-08-14,Smartphone,Eletrônicos,2,2500,5000
+REQ0186,2026-05-27,Notebook,Eletrônicos,3,4500,13500
+REQ0187,2026-06-21,Smartphone,Eletrônicos,2,2500,5000
+REQ0188,2026-02-11,Teclado Mecânico,Acessórios,3,350,1050
+REQ0189,2026-04-29,Smartphone,Eletrônicos,1,2500,2500
+REQ0190,2026-03-20,Monitor 4K,Monitores,3,1800,5400
+REQ0191,2026-08-01,Smartphone,Eletrônicos,1,2500,2500
+REQ0192,2026-08-27,Monitor 4K,Monitores,2,1800,3600
+REQ0193,2026-04-16,Monitor 4K,Monitores,1,1800,1800
+REQ0194,2026-01-11,Monitor 4K,Monitores,2,1800,3600
+REQ0195,2026-09-02,Fone Bluetooth,Acessórios,2,200,400
+REQ0196,2026-06-02,Notebook,Eletrônicos,2,4500,9000
+REQ0197,2026-04-23,Monitor 4K,Monitores,2,1800,3600
+REQ0198,2026-05-20,Monitor 4K,Monitores,1,1800,1800
+REQ0199,2026-01-15,Monitor 4K,Monitores,2,1800,3600
+REQ0200,2026-07-27,Monitor 4K,Monitores,2,1800,3600
+REQ0201,2026-03-07,Smartphone,Eletrônicos,2,2500,5000
+REQ0202,2026-01-14,Fone Bluetooth,Acessórios,3,200,600
+REQ0203,2026-01-14,Monitor 4K,Monitores,3,1800,5400
+REQ0204,2026-08-08,Notebook,Eletrônicos,3,4500,13500
+REQ0205,2026-04-04,Smartphone,Eletrônicos,2,2500,5000
+REQ0206,2026-07-14,Notebook,Eletrônicos,2,4500,9000
+REQ0207,2026-08-21,Teclado Mecânico,Acessórios,1,350,350
+REQ0208,2026-07-14,Teclado Mecânico,Acessórios,2,350,700
+REQ0209,2026-05-10,Teclado Mecânico,Acessórios,2,350,700
+REQ0210,2026-01-10,Notebook,Eletrônicos,2,4500,9000
+REQ0211,2026-06-29,Fone Bluetooth,Acessórios,1,200,200
+REQ0212,2026-02-05,Smartphone,Eletrônicos,3,2500,7500
+REQ0213,2026-05-07,Notebook,Eletrônicos,1,4500,4500
+REQ0214,2026-03-20,Smartphone,Eletrônicos,1,2500,2500
+REQ0215,2026-08-31,Smartphone,Eletrônicos,1,2500,2500
+REQ0216,2026-04-22,Notebook,Eletrônicos,3,4500,13500
+REQ0217,2026-05-12,Monitor 4K,Monitores,3,1800,5400
+REQ0218,2026-02-28,Teclado Mecânico,Acessórios,1,350,350
+REQ0219,2026-02-25,Smartphone,Eletrônicos,2,2500,5000
+REQ0220,2026-06-09,Fone Bluetooth,Acessórios,1,200,200
+REQ0221,2026-07-12,Fone Bluetooth,Acessórios,3,200,600
+REQ0222,2026-04-12,Monitor 4K,Monitores,3,1800,5400
+REQ0223,2026-05-05,Notebook,Eletrônicos,3,4500,13500
+REQ0224,2026-06-04,Notebook,Eletrônicos,3,4500,13500
+REQ0225,2026-01-22,Fone Bluetooth,Acessórios,1,200,200
+REQ0226,2026-08-08,Teclado Mecânico,Acessórios,3,350,1050
+REQ0227,2026-09-17,Teclado Mecânico,Acessórios,1,350,350
+REQ0228,2026-08-04,Teclado Mecânico,Acessórios,1,350,350
+REQ0229,2026-08-10,Monitor 4K,Monitores,1,1800,1800
+REQ0230,2026-08-24,Teclado Mecânico,Acessórios,3,350,1050
+REQ0231,2026-04-01,Smartphone,Eletrônicos,2,2500,5000
+REQ0232,2026-05-19,Fone Bluetooth,Acessórios,3,200,600
+REQ0233,2026-09-05,Fone Bluetooth,Acessórios,3,200,600
+REQ0234,2026-05-18,Monitor 4K,Monitores,2,1800,3600
+REQ0235,2026-02-14,Teclado Mecânico,Acessórios,1,350,350
+REQ0236,2026-05-05,Teclado Mecânico,Acessórios,2,350,700
+REQ0237,2026-07-14,Monitor 4K,Monitores,3,1800,5400
+REQ0238,2026-09-11,Teclado Mecânico,Acessórios,1,350,350
+REQ0239,2026-09-07,Teclado Mecânico,Acessórios,1,350,350
+REQ0240,2026-05-13,Smartphone,Eletrônicos,2,2500,5000
+REQ0241,2026-05-22,Teclado Mecânico,Acessórios,2,350,700
+REQ0242,2026-09-22,Fone Bluetooth,Acessórios,1,200,200
+REQ0243,2026-05-04,Smartphone,Eletrônicos,1,2500,2500
+REQ0244,2026-05-04,Monitor 4K,Monitores,2,1800,3600
+REQ0245,2026-09-09,Monitor 4K,Monitores,3,1800,5400
+REQ0246,2026-02-17,Monitor 4K,Monitores,1,1800,1800
+REQ0247,2026-07-27,Teclado Mecânico,Acessórios,1,350,350
+REQ0248,2026-07-08,Smartphone,Eletrônicos,2,2500,5000
+REQ0249,2026-06-26,Monitor 4K,Monitores,3,1800,5400
+REQ0250,2026-06-19,Monitor 4K,Monitores,3,1800,5400
+REQ0251,2026-08-21,Teclado Mecânico,Acessórios,3,350,1050
+REQ0252,2026-05-09,Teclado Mecânico,Acessórios,2,350,700
+REQ0253,2026-04-09,Smartphone,Eletrônicos,1,2500,2500
+REQ0254,2026-04-05,Teclado Mecânico,Acessórios,1,350,350
+REQ0255,2026-09-05,Smartphone,Eletrônicos,1,2500,2500
+REQ0256,2026-09-26,Teclado Mecânico,Acessórios,3,350,1050
+REQ0257,2026-02-21,Fone Bluetooth,Acessórios,2,200,400
+REQ0258,2026-04-27,Smartphone,Eletrônicos,2,2500,5000
+REQ0259,2026-06-04,Teclado Mecânico,Acessórios,1,350,350
+REQ0260,2026-03-06,Notebook,Eletrônicos,3,4500,13500
+REQ0261,2026-01-28,Teclado Mecânico,Acessórios,1,350,350
+REQ0262,2026-03-06,Fone Bluetooth,Acessórios,2,200,400
+REQ0263,2026-01-07,Monitor 4K,Monitores,1,1800,1800
+REQ0264,2026-08-29,Fone Bluetooth,Acessórios,2,200,400
+REQ0265,2026-06-24,Monitor 4K,Monitores,2,1800,3600
+REQ0266,2026-05-10,Smartphone,Eletrônicos,1,2500,2500
+REQ0267,2026-02-03,Monitor 4K,Monitores,1,1800,1800
+REQ0268,2026-02-07,Monitor 4K,Monitores,2,1800,3600
+REQ0269,2026-01-28,Fone Bluetooth,Acessórios,3,200,600
+REQ0270,2026-06-05,Smartphone,Eletrônicos,1,2500,2500
+REQ0271,2026-03-02,Notebook,Eletrônicos,1,4500,4500
+REQ0272,2026-04-26,Fone Bluetooth,Acessórios,2,200,400
+REQ0273,2026-08-19,Fone Bluetooth,Acessórios,2,200,400
+REQ0274,2026-08-08,Monitor 4K,Monitores,2,1800,3600
+REQ0275,2026-01-31,Teclado Mecânico,Acessórios,3,350,1050
+REQ0276,2026-02-20,Fone Bluetooth,Acessórios,3,200,600
+REQ0277,2026-04-19,Smartphone,Eletrônicos,3,2500,7500
+REQ0278,2026-02-11,Teclado Mecânico,Acessórios,3,350,1050
+REQ0279,2026-03-30,Smartphone,Eletrônicos,1,2500,2500
+REQ0280,2026-03-22,Fone Bluetooth,Acessórios,1,200,200
+REQ0281,2026-08-19,Notebook,Eletrônicos,2,4500,9000
+REQ0282,2026-05-30,Fone Bluetooth,Acessórios,2,200,400
+REQ0283,2026-05-28,Notebook,Eletrônicos,1,4500,4500
+REQ0284,2026-08-21,Teclado Mecânico,Acessórios,3,350,1050
+REQ0285,2026-04-30,Notebook,Eletrônicos,3,4500,13500
+REQ0286,2026-04-12,Teclado Mecânico,Acessórios,3,350,1050
+REQ0287,2026-04-26,Monitor 4K,Monitores,1,1800,1800
+REQ0288,2026-03-14,Smartphone,Eletrônicos,2,2500,5000
+REQ0289,2026-03-26,Notebook,Eletrônicos,1,4500,4500
+REQ0290,2026-05-28,Teclado Mecânico,Acessórios,3,350,1050
+REQ0291,2026-08-28,Monitor 4K,Monitores,1,1800,1800
+REQ0292,2026-07-26,Teclado Mecânico,Acessórios,3,350,1050
+REQ0293,2026-09-10,Teclado Mecânico,Acessórios,3,350,1050
+REQ0294,2026-01-21,Monitor 4K,Monitores,1,1800,1800
+REQ0295,2026-06-15,Monitor 4K,Monitores,3,1800,5400
+REQ0296,2026-01-14,Fone Bluetooth,Acessórios,2,200,400
+REQ0297,2026-01-11,Notebook,Eletrônicos,1,4500,4500
+REQ0298,2026-01-21,Teclado Mecânico,Acessórios,3,350,1050
+REQ0299,2026-09-23,Smartphone,Eletrônicos,2,2500,5000
+REQ0300,2026-04-03,Monitor 4K,Monitores,2,1800,3600
+REQ0301,2026-09-09,Fone Bluetooth,Acessórios,2,200,400
+REQ0302,2026-06-28,Notebook,Eletrônicos,2,4500,9000
+REQ0303,2026-06-14,Monitor 4K,Monitores,2,1800,3600
+REQ0304,2026-06-18,Notebook,Eletrônicos,1,4500,4500
+REQ0305,2026-09-11,Monitor 4K,Monitores,3,1800,5400
+REQ0306,2026-07-25,Teclado Mecânico,Acessórios,3,350,1050
+REQ0307,2026-08-21,Fone Bluetooth,Acessórios,1,200,200
+REQ0308,2026-05-10,Notebook,Eletrônicos,2,4500,9000
+REQ0309,2026-07-26,Teclado Mecânico,Acessórios,1,350,350
+REQ0310,2026-08-25,Fone Bluetooth,Acessórios,1,200,200
+REQ0311,2026-04-07,Monitor 4K,Monitores,1,1800,1800
+REQ0312,2026-09-13,Fone Bluetooth,Acessórios,2,200,400
+REQ0313,2026-04-15,Monitor 4K,Monitores,1,1800,1800
+REQ0314,2026-03-09,Teclado Mecânico,Acessórios,3,350,1050
+REQ0315,2026-09-06,Teclado Mecânico,Acessórios,2,350,700
+REQ0316,2026-05-03,Notebook,Eletrônicos,1,4500,4500
+REQ0317,2026-01-08,Smartphone,Eletrônicos,2,2500,5000
+REQ0318,2026-02-17,Fone Bluetooth,Acessórios,2,200,400
+REQ0319,2026-08-25,Smartphone,Eletrônicos,1,2500,2500
+REQ0320,2026-03-20,Notebook,Eletrônicos,3,4500,13500
+REQ0321,2026-05-30,Monitor 4K,Monitores,3,1800,5400
+REQ0322,2026-05-20,Fone Bluetooth,Acessórios,3,200,600
+REQ0323,2026-08-30,Monitor 4K,Monitores,2,1800,3600
+REQ0324,2026-03-16,Smartphone,Eletrônicos,2,2500,5000
+REQ0325,2026-09-18,Monitor 4K,Monitores,1,1800,1800
+REQ0326,2026-05-22,Smartphone,Eletrônicos,1,2500,2500
+REQ0327,2026-09-17,Monitor 4K,Monitores,2,1800,3600
+REQ0328,2026-05-25,Teclado Mecânico,Acessórios,1,350,350
+REQ0329,2026-09-08,Teclado Mecânico,Acessórios,3,350,1050
+REQ0330,2026-09-05,Smartphone,Eletrônicos,2,2500,5000
+REQ0331,2026-07-13,Teclado Mecânico,Acessórios,2,350,700
+REQ0332,2026-04-07,Monitor 4K,Monitores,2,1800,3600
+REQ0333,2026-07-16,Smartphone,Eletrônicos,3,2500,7500
+REQ0334,2026-01-23,Smartphone,Eletrônicos,2,2500,5000
+REQ0335,2026-08-31,Teclado Mecânico,Acessórios,3,350,1050
+REQ0336,2026-03-19,Monitor 4K,Monitores,2,1800,3600
+REQ0337,2026-03-06,Monitor 4K,Monitores,1,1800,1800
+REQ0338,2026-06-19,Fone Bluetooth,Acessórios,3,200,600
+REQ0339,2026-02-21,Notebook,Eletrônicos,2,4500,9000
+REQ0340,2026-01-08,Fone Bluetooth,Acessórios,2,200,400
+REQ0341,2026-03-21,Smartphone,Eletrônicos,2,2500,5000
+REQ0342,2026-05-16,Notebook,Eletrônicos,2,4500,9000
+REQ0343,2026-07-23,Teclado Mecânico,Acessórios,3,350,1050
+REQ0344,2026-07-14,Notebook,Eletrônicos,2,4500,9000
+REQ0345,2026-09-07,Teclado Mecânico,Acessórios,3,350,1050
+REQ0346,2026-02-05,Fone Bluetooth,Acessórios,1,200,200
+REQ0347,2026-05-28,Smartphone,Eletrônicos,3,2500,7500
+REQ0348,2026-02-16,Smartphone,Eletrônicos,3,2500,7500
+REQ0349,2026-02-21,Monitor 4K,Monitores,1,1800,1800
+REQ0350,2026-06-03,Monitor 4K,Monitores,1,1800,1800
+REQ0351,2026-06-16,Notebook,Eletrônicos,1,4500,4500
+REQ0352,2026-07-03,Notebook,Eletrônicos,2,4500,9000
+REQ0353,2026-03-16,Teclado Mecânico,Acessórios,2,350,700
+REQ0354,2026-07-30,Smartphone,Eletrônicos,3,2500,7500
+REQ0355,2026-04-03,Fone Bluetooth,Acessórios,3,200,600
+REQ0356,2026-02-10,Smartphone,Eletrônicos,1,2500,2500
+REQ0357,2026-05-04,Fone Bluetooth,Acessórios,2,200,400
+REQ0358,2026-03-15,Monitor 4K,Monitores,3,1800,5400
+REQ0359,2026-05-11,Smartphone,Eletrônicos,2,2500,5000
+REQ0360,2026-01-05,Monitor 4K,Monitores,2,1800,3600
+REQ0361,2026-03-22,Monitor 4K,Monitores,2,1800,3600
+REQ0362,2026-06-26,Notebook,Eletrônicos,2,4500,9000
+REQ0363,2026-08-06,Fone Bluetooth,Acessórios,2,200,400
+REQ0364,2026-06-04,Teclado Mecânico,Acessórios,2,350,700
+REQ0365,2026-09-05,Smartphone,Eletrônicos,2,2500,5000
+REQ0366,2026-07-15,Notebook,Eletrônicos,1,4500,4500
+REQ0367,2026-06-01,Fone Bluetooth,Acessórios,2,200,400
+REQ0368,2026-07-22,Teclado Mecânico,Acessórios,1,350,350
+REQ0369,2026-01-26,Teclado Mecânico,Acessórios,1,350,350
+REQ0370,2026-09-12,Fone Bluetooth,Acessórios,3,200,600
+REQ0371,2026-06-30,Teclado Mecânico,Acessórios,1,350,350
+REQ0372,2026-04-08,Smartphone,Eletrônicos,3,2500,7500
+REQ0373,2026-03-12,Fone Bluetooth,Acessórios,2,200,400
+REQ0374,2026-01-21,Notebook,Eletrônicos,3,4500,13500
+REQ0375,2026-01-18,Teclado Mecânico,Acessórios,2,350,700
+REQ0376,2026-03-09,Fone Bluetooth,Acessórios,2,200,400
+REQ0377,2026-06-17,Notebook,Eletrônicos,2,4500,9000
+REQ0378,2026-04-13,Monitor 4K,Monitores,1,1800,1800
+REQ0379,2026-07-07,Smartphone,Eletrônicos,3,2500,7500
+REQ0380,2026-05-20,Fone Bluetooth,Acessórios,3,200,600
+REQ0381,2026-09-04,Smartphone,Eletrônicos,2,2500,5000
+REQ0382,2026-06-23,Teclado Mecânico,Acessórios,3,350,1050
+REQ0383,2026-02-08,Notebook,Eletrônicos,2,4500,9000
+REQ0384,2026-07-23,Smartphone,Eletrônicos,1,2500,2500
+REQ0385,2026-02-16,Fone Bluetooth,Acessórios,2,200,400
+REQ0386,2026-05-16,Monitor 4K,Monitores,1,1800,1800
+REQ0387,2026-08-21,Fone Bluetooth,Acessórios,1,200,200
+REQ0388,2026-05-15,Teclado Mecânico,Acessórios,3,350,1050
+REQ0389,2026-07-10,Fone Bluetooth,Acessórios,2,200,400
+REQ0390,2026-04-30,Notebook,Eletrônicos,3,4500,13500
+REQ0391,2026-06-17,Monitor 4K,Monitores,1,1800,1800
+REQ0392,2026-02-02,Fone Bluetooth,Acessórios,1,200,200
+REQ0393,2026-06-04,Monitor 4K,Monitores,3,1800,5400
+REQ0394,2026-03-13,Monitor 4K,Monitores,1,1800,1800
+REQ0395,2026-06-05,Notebook,Eletrônicos,1,4500,4500
+REQ0396,2026-02-19,Monitor 4K,Monitores,1,1800,1800
+REQ0397,2026-03-11,Smartphone,Eletrônicos,3,2500,7500
+REQ0398,2026-07-09,Monitor 4K,Monitores,2,1800,3600
+REQ0399,2026-03-21,Fone Bluetooth,Acessórios,2,200,400
+REQ0400,2026-02-20,Monitor 4K,Monitores,3,1800,5400
+REQ0401,2026-07-28,Monitor 4K,Monitores,3,1800,5400
+REQ0402,2026-07-09,Teclado Mecânico,Acessórios,1,350,350
+REQ0403,2026-08-16,Smartphone,Eletrônicos,2,2500,5000
+REQ0404,2026-02-20,Smartphone,Eletrônicos,2,2500,5000
+REQ0405,2026-07-03,Teclado Mecânico,Acessórios,3,350,1050
+REQ0406,2026-05-22,Notebook,Eletrônicos,2,4500,9000
+REQ0407,2026-08-21,Smartphone,Eletrônicos,1,2500,2500
+REQ0408,2026-04-19,Notebook,Eletrônicos,3,4500,13500
+REQ0409,2026-01-26,Fone Bluetooth,Acessórios,1,200,200
+REQ0410,2026-03-06,Teclado Mecânico,Acessórios,1,350,350
+REQ0411,2026-02-05,Fone Bluetooth,Acessórios,1,200,200
+REQ0412,2026-04-21,Fone Bluetooth,Acessórios,1,200,200
+REQ0413,2026-03-17,Smartphone,Eletrônicos,2,2500,5000
+REQ0414,2026-05-22,Fone Bluetooth,Acessórios,1,200,200
+REQ0415,2026-05-09,Smartphone,Eletrônicos,1,2500,2500
+REQ0416,2026-01-14,Smartphone,Eletrônicos,1,2500,2500
+REQ0417,2026-07-03,Smartphone,Eletrônicos,1,2500,2500
+REQ0418,2026-06-15,Smartphone,Eletrônicos,3,2500,7500
+REQ0419,2026-05-16,Notebook,Eletrônicos,1,4500,4500
+REQ0420,2026-08-04,Notebook,Eletrônicos,1,4500,4500
+REQ0421,2026-02-02,Fone Bluetooth,Acessórios,1,200,200
+REQ0422,2026-07-05,Monitor 4K,Monitores,2,1800,3600
+REQ0423,2026-02-25,Fone Bluetooth,Acessórios,3,200,600
+REQ0424,2026-04-24,Monitor 4K,Monitores,3,1800,5400
+REQ0425,2026-09-24,Fone Bluetooth,Acessórios,1,200,200
+REQ0426,2026-01-16,Teclado Mecânico,Acessórios,2,350,700
+REQ0427,2026-07-25,Notebook,Eletrônicos,2,4500,9000
+REQ0428,2026-02-25,Monitor 4K,Monitores,3,1800,5400
+REQ0429,2026-08-16,Monitor 4K,Monitores,3,1800,5400
+REQ0430,2026-06-14,Notebook,Eletrônicos,1,4500,4500
+REQ0431,2026-02-03,Fone Bluetooth,Acessórios,1,200,200
+REQ0432,2026-06-16,Smartphone,Eletrônicos,2,2500,5000
+REQ0433,2026-05-31,Monitor 4K,Monitores,3,1800,5400
+REQ0434,2026-08-09,Monitor 4K,Monitores,3,1800,5400
+REQ0435,2026-02-28,Notebook,Eletrônicos,3,4500,13500
+REQ0436,2026-04-21,Fone Bluetooth,Acessórios,3,200,600
+REQ0437,2026-04-27,Monitor 4K,Monitores,2,1800,3600
+REQ0438,2026-08-21,Monitor 4K,Monitores,2,1800,3600
+REQ0439,2026-02-18,Monitor 4K,Monitores,2,1800,3600
+REQ0440,2026-06-10,Teclado Mecânico,Acessórios,2,350,700
+REQ0441,2026-03-20,Teclado Mecânico,Acessórios,2,350,700
+REQ0442,2026-02-16,Monitor 4K,Monitores,1,1800,1800
+REQ0443,2026-08-10,Notebook,Eletrônicos,1,4500,4500
+REQ0444,2026-07-10,Notebook,Eletrônicos,3,4500,13500
+REQ0445,2026-01-31,Smartphone,Eletrônicos,3,2500,7500
+REQ0446,2026-06-18,Fone Bluetooth,Acessórios,3,200,600
+REQ0447,2026-07-01,Notebook,Eletrônicos,2,4500,9000
+REQ0448,2026-01-27,Monitor 4K,Monitores,3,1800,5400
+REQ0449,2026-06-09,Teclado Mecânico,Acessórios,3,350,1050
+REQ0450,2026-09-17,Teclado Mecânico,Acessórios,1,350,350
+REQ0451,2026-09-04,Smartphone,Eletrônicos,1,2500,2500
+REQ0452,2026-06-29,Smartphone,Eletrônicos,1,2500,2500
+REQ0453,2026-02-28,Fone Bluetooth,Acessórios,2,200,400
+REQ0454,2026-04-26,Teclado Mecânico,Acessórios,3,350,1050
+REQ0455,2026-01-14,Monitor 4K,Monitores,3,1800,5400
+REQ0456,2026-05-17,Fone Bluetooth,Acessórios,3,200,600
+REQ0457,2026-05-20,Notebook,Eletrônicos,1,4500,4500
+REQ0458,2026-06-29,Teclado Mecânico,Acessórios,2,350,700
+REQ0459,2026-03-15,Notebook,Eletrônicos,1,4500,4500
+REQ0460,2026-07-25,Fone Bluetooth,Acessórios,3,200,600
+REQ0461,2026-01-16,Notebook,Eletrônicos,1,4500,4500
+REQ0462,2026-04-21,Notebook,Eletrônicos,3,4500,13500
+REQ0463,2026-08-21,Monitor 4K,Monitores,2,1800,3600
+REQ0464,2026-07-09,Teclado Mecânico,Acessórios,1,350,350
+REQ0465,2026-06-16,Teclado Mecânico,Acessórios,3,350,1050
+REQ0466,2026-02-13,Fone Bluetooth,Acessórios,3,200,600
+REQ0467,2026-03-22,Notebook,Eletrônicos,1,4500,4500
+REQ0468,2026-02-11,Fone Bluetooth,Acessórios,1,200,200
+REQ0469,2026-08-06,Teclado Mecânico,Acessórios,2,350,700
+REQ0470,2026-08-15,Monitor 4K,Monitores,3,1800,5400
+REQ0471,2026-04-21,Monitor 4K,Monitores,2,1800,3600
+REQ0472,2026-06-26,Fone Bluetooth,Acessórios,1,200,200
+REQ0473,2026-05-26,Monitor 4K,Monitores,1,1800,1800
+REQ0474,2026-09-27,Fone Bluetooth,Acessórios,2,200,400
+REQ0475,2026-04-23,Teclado Mecânico,Acessórios,1,350,350
+REQ0476,2026-01-29,Monitor 4K,Monitores,3,1800,5400
+REQ0477,2026-06-04,Notebook,Eletrônicos,1,4500,4500
+REQ0478,2026-05-11,Smartphone,Eletrônicos,1,2500,2500
+REQ0479,2026-03-03,Teclado Mecânico,Acessórios,2,350,700
+REQ0480,2026-08-09,Notebook,Eletrônicos,2,4500,9000
+REQ0481,2026-07-14,Smartphone,Eletrônicos,1,2500,2500
+REQ0482,2026-04-28,Fone Bluetooth,Acessórios,3,200,600
+REQ0483,2026-07-01,Fone Bluetooth,Acessórios,3,200,600
+REQ0484,2026-01-22,Notebook,Eletrônicos,2,4500,9000
+REQ0485,2026-08-24,Monitor 4K,Monitores,1,1800,1800
+REQ0486,2026-08-08,Notebook,Eletrônicos,2,4500,9000
+REQ0487,2026-08-02,Fone Bluetooth,Acessórios,2,200,400
+REQ0488,2026-07-27,Teclado Mecânico,Acessórios,1,350,350
+REQ0489,2026-03-29,Notebook,Eletrônicos,2,4500,9000
+REQ0490,2026-07-05,Fone Bluetooth,Acessórios,2,200,400
+REQ0491,2026-02-24,Notebook,Eletrônicos,2,4500,9000
+REQ0492,2026-07-25,Smartphone,Eletrônicos,2,2500,5000
+REQ0493,2026-07-22,Fone Bluetooth,Acessórios,1,200,200
+REQ0494,2026-06-23,Teclado Mecânico,Acessórios,3,350,1050
+REQ0495,2026-03-28,Smartphone,Eletrônicos,2,2500,5000
+REQ0496,2026-02-28,Notebook,Eletrônicos,3,4500,13500
+REQ0497,2026-04-10,Fone Bluetooth,Acessórios,3,200,600
+REQ0498,2026-03-17,Teclado Mecânico,Acessórios,2,350,700
+REQ0499,2026-03-16,Smartphone,Eletrônicos,1,2500,2500
+REQ0500,2026-03-30,Teclado Mecânico,Acessórios,1,350,350
