@@ -1,6 +1,6 @@
 # 📊 Sales Analysis Dashboard
 
-> **An executive sales analytics platform featuring an automated SQLite data ingestion pipeline and quality assertions.**
+> **An executive sales analytics platform featuring an automated SQLite data ingestion pipeline and production-grade data quality validation.**
 
 [![Streamlit Cloud](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io)
 ![Python](https://img.shields.io/badge/Python-3.10+-1E3A8A?style=flat&logo=python&logoColor=white)
@@ -11,37 +11,35 @@
 
 ## 📌 Overview
 
-The **Sales Analysis Dashboard** is an interactive web application built with **Python** and **Streamlit** to simulate, analyze, and report e-commerce sales data. The project incorporates an automated data ingestion pipeline using an in-memory **SQLite** database and **Pandas** for advanced data manipulation, ensuring both clean engineering standards and robust data quality validation.
+The **Sales Analysis Dashboard** is an interactive web application built with **Python**, **Pandas**, and **Streamlit**. It processes transactional sales records through an in-memory **SQLite** pipeline, running automated checks and aggregating executive metrics for real-time decision-making.
 
-🔗 **Live Application:** [👉 Click here to access the Dashboard](https://share.streamlit.io)
+🔗 **Live Application:** [👉 Access the Dashboard on Streamlit Cloud](https://share.streamlit.io) *(Configure with your exact app URL)*
 
 ---
 
 ## 🎯 Key Features
 
-- **SQLite Data Ingestion Pipeline**: Uses a lightweight, serverless SQLite in-memory database (`:memory:`) to process and query structured transactional data efficiently.
-- **Automated Data Quality & Validation**: Built-in Python assertions (`assert`) validating critical null checks and numerical range rules.
-- **Executive Key Performance Indicators (KPIs)**: Real-time calculation of Total Revenue, Units Sold, and Average Order Value (AOV).
-- **Interactive Visualizations**: Clean Plotly charts displaying top-performing products and daily sales trends.
-- **Custom Filters & Data Preview**: Interactive sidebar to filter metrics by product category and an expandable section to inspect raw data.
+- **SQLite In-Memory Pipeline**: Loads and queries structured transactional records efficiently using SQL clauses.
+- **Robust Data Validation**: Replaces simple assertions with user-facing production safeguards (checking empty states and missing identifiers).
+- **Executive Key Performance Indicators (KPIs)**: Real-time computation of Total Revenue, Total Units Sold, and rigorous Average Order Value (AOV) grouped by invoice.
+- **Interactive Visualizations**: Clean Plotly charts displaying top-performing products by revenue and daily sales trends.
+- **Custom Filters & Raw Data Inspector**: Dynamic category filtering and an expandable data table view.
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Language**: Python 3.10+
-- **Database & Querying**: SQLite (In-Memory), SQL
+- **Database**: SQLite (In-Memory)
 - **Data Wrangling**: Pandas, NumPy
-- **Dashboard & Interface**: [Streamlit](https://streamlit.io/)
-- **Data Visualization**: Plotly Express
-- **Cloud Deployment**: Streamlit Community Cloud
+- **Interface & Dashboard**: Streamlit
+- **Visualization**: Plotly Express
 
 ---
 
-## 🧪 Data Quality & Assertions
+## 🚀 Local Setup & Installation
 
-To guarantee data reliability before dashboard rendering, the pipeline runs automated tests:
-```python
-# Example of automated pipeline assertions
-assert df_clean['CustomerID'].isnull().sum() == 0, "Missing Customer IDs detected!"
-assert (df_clean['Quantity'] > 0).all(), "Invalid quantity values detected!"
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/BarbaraMenezess/sales-analysis-dashboard.git](https://github.com/BarbaraMenezess/sales-analysis-dashboard.git)
+   cd sales-analysis-dashboard

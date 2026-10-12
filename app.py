@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import sqlite3
+import datetime
 import plotly.express as px
 
 # 1. Configuração da Página com design executivo off-white
@@ -22,21 +23,30 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# 2. Pipeline de Ingestão de Dados com SQLite em Memória
+# 2. Pipeline de Ingestão e Validação de Dados em Memória (SQLite)
 @st.cache_data
-def load_data():
+def load_and_validate_data():
+    # Gerando um conjunto de dados mais robusto para simulação executiva
     data = {
-        'InvoiceNo': ['536365', '536366', '536367', '536368', '536369', '536370', '536371', '536372'],
-        'StockCode': ['85123A', '71053', '84406B', '84029G', '84029E', '22752', '21730', '22633'],
-        'Description': ['WHITE HANGING HEART T-LIGHT HOLDER', 'WHITE METAL LANTERN', 'CREAM CUPID HEARTS COAT HANGER', 'KNITTED UNION FLAG HOT WATER BOTTLE', 'RED WOOLLY HOTTIE WHITE HEART.', 'SET 7 BABUSHKA NESTING BOXES', 'GLASS STAR FROSTED T-LIGHT HOLDER', 'HAND WARMER UNION JACK'],
-        'Quantity': [6, 6, 8, 6, 6, 2, 6, 6],
-        'InvoiceDate': ['2023-10-01', '2023-10-01', '2023-10-02', '2023-10-02', '2023-10-03', '2023-10-03', '2023-10-04', '2023-10-04'],
-        'UnitPrice': [2.55, 3.39, 2.75, 3.39, 3.39, 7.65, 4.25, 1.85],
-        'CustomerID': [17850, 17850, 13047, 13047, 13047, 12837, 12837, 17850],
-        'Category': ['Decor', 'Decor', 'Home', 'Apparel', 'Apparel', 'Gifts', 'Decor', 'Gifts']
+        'InvoiceNo': ['536365', '536366', '536367', '536368', '536369', '536370', '536371', '536372', '536373', '536374'],
+        'StockCode': ['85123A', '71053', '84406B', '84029G', '84029E', '22752', '21730', '22633', '22634', '22720'],
+        'Description': [
+            'WHITE HANGING HEART T-LIGHT', 'WHITE METAL LANTERN', 'CREAM CUPID HEARTS COAT HANGER', 
+            'KNITTED UNION FLAG HWB', 'RED WOOLLY HOTTIE WHITE HEART', 'SET 7 BABUSHKA NESTING BOXES', 
+            'GLASS STAR FROSTED T-LIGHT', 'HAND WARMER UNION JACK', 'HAND WARMER RED POLKA DOT', 'SET OF 3 CAKE TINS PANTRY'
+        ],
+        'Quantity': [12, 6, 8, 15, 6, 4, 10, 8, 12, 5],
+        'InvoiceDate': [
+            '2026-10-01', '2026-10-01', '2026-10-02', '2026-10-02', '2026-10-03', 
+            '2026-10-03', '2026-10-04', '2026-10-04', '2026-10-05', '2026-10-05'
+        ],
+        'UnitPrice': [2.55, 3.39, 2.75, 3.39, 3.39, 7.65, 4.25, 1.85, 1.85, 12.75],
+        'CustomerID': [17850, 17850, 13047, 13047, 13047, 12837, 12837, 17850, 17850, 13047],
+        'Category': ['Decor', 'Decor', 'Home', 'Apparel', 'Apparel', 'Gifts', 'Decor', 'Gifts', 'Gifts', 'Kitchen']
     }
     df = pd.DataFrame(data)
     
+    # Ingestão via SQLite em memória
     conn = sqlite3.connect(':memory:')
     df.to_sql('sales_raw', conn, index=False, if_exists='replace')
     
@@ -44,19 +54,25 @@ def load_data():
     df_clean = pd.read_sql(query, conn)
     conn.close()
     
-    # Validação de dados assertiva
-    assert df_clean['CustomerID'].isnull().sum() == 0, "Missing Customer IDs detected!"
-    
+    # Validações de Produção Explicitas (Substituindo assert simples)
+    if df_clean.empty:
+        st.error("Erro crítico: O conjunto de dados filtrado está vazio.")
+        st.stop()
+        
+    if df_clean['CustomerID'].isnull().any():
+        st.warning("Aviso: Foram detetados IDs de clientes em falta.")
+        
+    # Tratamento e colunas derivadas
     df_clean['Revenue'] = df_clean['Quantity'] * df_clean['UnitPrice']
     df_clean['InvoiceDate'] = pd.to_datetime(df_clean['InvoiceDate'])
     
     return df_clean
 
-df = load_data()
+df = load_and_validate_data()
 
 # 3. Cabeçalho do Dashboard
 st.title("📊 Sales Analysis Dashboard")
-st.markdown("An executive sales analytics platform featuring an automated SQLite data ingestion pipeline and quality assertions.")
+st.markdown("An executive sales analytics platform featuring an automated SQLite data ingestion pipeline and production-grade validation checks.")
 st.markdown("---")
 
 # 4. Filtros na Barra Lateral
@@ -71,7 +87,6 @@ else:
 # 5. KPIs Executivos com Ticket Médio por Fatura (InvoiceNo) rigoroso
 total_revenue = df_filtered['Revenue'].sum()
 total_units = df_filtered['Quantity'].sum()
-# Cálculo rigoroso de AOV agrupado por InvoiceNo
 invoice_totals = df_filtered.groupby('InvoiceNo')['Revenue'].sum()
 aov = invoice_totals.mean() if not invoice_totals.empty else 0.0
 
@@ -82,7 +97,7 @@ col3.metric("Average Order Value (AOV)", f"${aov:,.2f}")
 
 st.markdown("---")
 
-# 6. Gráficos Interativos (Plotly com chamada limpa st.plotly_chart)
+# 6. Gráficos Interativos (Plotly)
 col_chart1, col_chart2 = st.columns(2)
 
 with col_chart1:
