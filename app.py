@@ -25,7 +25,6 @@ st.markdown("""
 # 2. Pipeline de Ingestão de Dados com SQLite em Memória
 @st.cache_data
 def load_data():
-    # Criando dados simulados robustos de e-commerce (UCI Online Retail style)
     data = {
         'InvoiceNo': ['536365', '536366', '536367', '536368', '536369', '536370', '536371', '536372'],
         'StockCode': ['85123A', '71053', '84406B', '84029G', '84029E', '22752', '21730', '22633'],
@@ -38,16 +37,14 @@ def load_data():
     }
     df = pd.DataFrame(data)
     
-    # Ingestão em Banco SQLite em Memória (:memory:)
     conn = sqlite3.connect(':memory:')
     df.to_sql('sales_raw', conn, index=False, if_exists='replace')
     
-    # Consulta SQL para carregar dados limpos
     query = "SELECT * FROM sales_raw WHERE Quantity > 0 AND UnitPrice > 0"
     df_clean = pd.read_sql(query, conn)
     conn.close()
     
-    # Validação de Dados (Null Check automatizado)
+    # Validação de dados assertiva
     assert df_clean['CustomerID'].isnull().sum() == 0, "Missing Customer IDs detected!"
     
     df_clean['Revenue'] = df_clean['Quantity'] * df_clean['UnitPrice']
@@ -71,10 +68,12 @@ if selected_category != "All":
 else:
     df_filtered = df
 
-# 5. KPIs Executivos
+# 5. KPIs Executivos com Ticket Médio por Fatura (InvoiceNo) rigoroso
 total_revenue = df_filtered['Revenue'].sum()
 total_units = df_filtered['Quantity'].sum()
-aov = df_filtered['Revenue'].mean()
+# Cálculo rigoroso de AOV agrupado por InvoiceNo
+invoice_totals = df_filtered.groupby('InvoiceNo')['Revenue'].sum()
+aov = invoice_totals.mean() if not invoice_totals.empty else 0.0
 
 col1, col2, col3 = st.columns(3)
 col1.metric("Total Revenue", f"${total_revenue:,.2f}")
@@ -83,7 +82,7 @@ col3.metric("Average Order Value (AOV)", f"${aov:,.2f}")
 
 st.markdown("---")
 
-# 6. Gráficos Interativos (Plotly)
+# 6. Gráficos Interativos (Plotly com chamada limpa st.plotly_chart)
 col_chart1, col_chart2 = st.columns(2)
 
 with col_chart1:
@@ -101,6 +100,6 @@ with col_chart2:
     fig_time.update_layout(plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)')
     st.plotly_chart(fig_time, use_container_width=True)
 
-# 7. Tabela de Dados Detalhados (Expansível)
+# 7. Tabela de Dados Detalhados
 with st.expander("🔍 Inspect Filtered Raw Data"):
     st.dataframe(df_filtered, use_container_width=True)
